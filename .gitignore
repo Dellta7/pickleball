@@ -1,8 +1,6 @@
 # Generated outputs / artifacts
-runs/
-tracked-output/
-frames/
-input-videos/
+# NOTE: Previously ignored to avoid GitHub size limits.
+# If you want to version these folders, keep them NOT ignored and rely on Git LFS for large binaries.
 
 # Python
 __pycache__/
