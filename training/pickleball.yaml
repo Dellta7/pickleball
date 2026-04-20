@@ -1,0 +1,18 @@
+# Pickleball dataset config for Ultralytics YOLO
+# Update `path:` to your dataset root.
+# Expected structure:
+#   path/
+#     images/train
+#     images/val
+#     labels/train
+#     labels/val
+
+path: datasets/pickleball
+train: images/train
+val: images/val
+
+# Classes MUST match `classes.txt` order
+names:
+  0: pickleball_ball
+  1: player
+  2: paddle
